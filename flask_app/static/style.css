@@ -1,0 +1,138 @@
+body {
+  font-family: sans-serif;
+  background: #2f4256 url('http://freelansim.ru/images/service_pattern.png')repeat 0 0;
+  font-family: 'PT Sans', Verdana, sans-serif;
+  margin: 0;
+  padding:0;
+  overflow: hidden;
+  display: table;
+  min-width: 100%;
+}
+
+.file-upload {
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.file-upload-btn {
+  width: 100%;
+  margin: 0;
+  color: #fff;
+  background: #667C93;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #45505a;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  max-width=500;
+}
+
+.file-upload-btn:hover {
+  background: #738696;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.file-upload-btn:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+.file-upload-content {
+  display: none;
+  text-align: center;
+}
+
+.file-upload-input {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.image-upload-wrap {
+  margin-top: 20px;
+  border: 4px dashed #ffffff;
+  position: relative;
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+  background-color: #667C93;
+}
+
+.image-info {
+  padding: 0 15px 15px 15px;
+  color: #ffffff;
+}
+
+.drag-text {
+  text-align: center;
+}
+
+.drag-text h3 {
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 60px 0;
+}
+
+.file-upload-image {
+  max-height: 800px;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.layout{
+  width: 400px;
+  margin: 0 auto;
+  margin: 0;
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.error {
+	font-size: 36px;
+	color: #fff;
+	font-weight: normal;
+	margin: 0 auto;
+    line-height: 1;
+}
+
+.icon{
+	width: 395px;
+	margin: 65px auto 0px;
+	text-align: center;
+}
+
+.icon:after {
+  background-image: url('https://freelance.habr.com/images/500_icon.png');
+  content: '';
+  display: block;
+  width: 202px;
+  height: 202px;
+  margin: 40px auto;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.buttons{
+  text-align: center;
+  margin:auto;
+  position: relative;
+  border-top: 3px solid #667c93;
+  width: 100%;
+  text-align: center;
+  width: 400px;
+}

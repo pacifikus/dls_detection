@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="layout">
+    <div class="error icon">{{ error_message }}</div>
+    <div class="buttons">
+        <form action="/">
+            <input class="file-upload-btn" type="submit" value="Retry"/>
+        </form>
+    </div>
+</div>
+{% endblock %}

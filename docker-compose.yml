@@ -1,0 +1,21 @@
+services:
+
+  rabbitmq:
+    image: 'rabbitmq:3.6-management-alpine'
+    ports:
+      - '5672:5672'
+      - '15672:15672'
+
+  server:
+    build: flask_app
+    volumes:
+      - ./flask_app:/app
+    ports:
+      - 5000:5000
+
+  detector:
+    build: detector
+    volumes:
+      - ./detector:/app
+    environment:
+      - PYTHONUNBUFFERED=1
